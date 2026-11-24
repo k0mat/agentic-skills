@@ -6,7 +6,7 @@ Curated collection of zero-bloat [Agent Skills](https://agentskills.io/specifica
 
 | Skill | Path | Description |
 | :--- | :--- | :--- |
-| [`implementation-guide`](skills/implementation-guide/SKILL.md) | `skills/implementation-guide` | Author Baeldung-clarity Markdown implementation guides with upfront rationale, considered alternatives, concrete steps, and verification gates across coding and non-coding tasks. |
+| [`implementation-guide`](skills/implementation-guide/SKILL.md) | `skills/implementation-guide` | Author Baeldung-clarity Markdown implementation guides with upfront rationale, pre-flight author Q&A/guardrails, concrete steps, and verification gates across coding and non-coding tasks. |
 | [`input-refiner`](skills/input-refiner/SKILL.md) | `skills/input-refiner` | Refine rough or typo-ridden user input without bloat and ask ≤3 high-ROI clarifying questions only when ambiguity threatens execution quality. |
 
 ## Installation

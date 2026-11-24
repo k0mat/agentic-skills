@@ -1,6 +1,6 @@
 # Multi-Phase Implementation Guide Structure
 
-Load and apply this structure **only** when a guide exceeds single-file complexity (>8 major steps, >350 lines, distinct rollout/handoff stages, or blast-radius checkpoints).
+Load and apply this structure **only** when a guide triggers the split gate in `SKILL.md` (`>8` major steps, `>350` Markdown lines excluding fenced code blocks, distinct rollout/handoff stages, or blast-radius checkpoints—ignoring unsplit legacy guides).
 
 ## Directory Naming & Layout
 
@@ -38,6 +38,32 @@ Load and apply this structure **only** when a guide exceeds single-file complexi
 
 ## Global Prerequisites
 - <Access, tooling, environments, or approvals needed across the effort>
+
+## Author Notes & Q&A
+<!-- Centralize cross-phase Q&A and execution guardrails here in README.md; omit from phase-NN-*.md files. -->
+
+**Author Perspective:** <Specialist role & seniority most suited to own this migration/rollout> — <1-sentence cross-phase risk lens>.
+
+### Junior <Dev / Operator> Q&A
+1. **Q:** <Cross-phase wiring, dependency, or sequencing question grounded in this system>
+   **A:** <1-3 sentences referencing specific phases, artifacts, or gates.>
+2. **Q:** ...
+   **A:** ...
+3. **Q:** ...
+   **A:** ...
+
+### Mid-Level <Dev / Operator> Q&A
+1. **Q:** <Cross-phase failure mode, partial-rollout state, concurrency, or rollback-boundary question>
+   **A:** <1-3 sentences stating concrete behavior or tradeoff.>
+2. **Q:** ...
+   **A:** ...
+3. **Q:** ...
+   **A:** ...
+
+### Author Execution Guardrails
+1. <Imperative guardrail spanning phases or stage gates>
+2. <Imperative guardrail on pause/handoff safety or blast radius>
+3. <Imperative guardrail on end-to-end verification or rollback boundary>
 
 ## Phase Plan
 
