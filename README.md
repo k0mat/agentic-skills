@@ -9,6 +9,7 @@ Curated collection of zero-bloat [Agent Skills](https://agentskills.io/specifica
 | [`decision-gate`](skills/decision-gate/SKILL.md) | `skills/decision-gate` | Escalate major, hard-to-reverse architectural or product forks to the operator with 2–4 viable options scored on grounded Quality, Effort, and Reversibility metrics. |
 | [`implementation-guide`](skills/implementation-guide/SKILL.md) | `skills/implementation-guide` | Author Baeldung-clarity Markdown implementation guides with upfront rationale, pre-flight author Q&A/guardrails, concrete steps, and verification gates across coding and non-coding tasks. |
 | [`input-refiner`](skills/input-refiner/SKILL.md) | `skills/input-refiner` | Refine rough or typo-ridden user input without bloat and ask ≤3 high-ROI clarifying questions only when ambiguity threatens execution quality. |
+| [`task-spec`](skills/task-spec/SKILL.md) | `skills/task-spec` | Author grounded Markdown task specifications (scope, system anchors, constraints, invariants, rollout risks, and verifiable acceptance criteria) designed as ideal input for `implementation-guide`. |
 
 ## Installation
 
